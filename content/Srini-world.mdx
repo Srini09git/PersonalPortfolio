@@ -5,44 +5,84 @@ summary: "My first post on my new blog."
 ---
 
 Hi there!
+# Welcome to My Blog Post
 
-```jsx
+Here is some **bold text** to highlight important points.
+
+## Adding an Image
+
+Below is an example image:
+
+![A beautiful sunset](https://flatirons.com/static/0a79ca63e3ace4bfd802a70a2d7427ae/537f5/What-is-Drupal-An-Overview-in-2025.webp)
 
 
-import React, { useState, useEffect } from 'react';
 
-function ExampleComponent() {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    // Effect to fetch data
-    const fetchData = async () => {
-      try {
-        const response = await fetch('https://api.example.com/data');
-        const result = await response.json();
-        setData(result);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
+# 1. Basic Markdown Syntax
+You can use Markdown for common text formatting:
 
-    fetchData();
-  }, []); // Empty dependency array ensures this runs only once
+Example:
 
-  return (
-    <div>
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <pre>{JSON.stringify(data, null, 2)}</pre>
-      )}
-    </div>
-  );
-}
+# Heading 1
+## Heading 2
+### Heading 3
 
-export default ExampleComponent;
+**Bold Text**  
+*Italic Text*  
+~~Strikethrough~~  
 
+1. Ordered List Item 1
+2. Ordered List Item 2
+
+- Unordered List Item 1
+- Unordered List Item 2
+
+> Blockquote example.
+
+`Inline code`
+
+```javascript
+// Code block
+const hello = "Hello, MDX!";
 ```
+
+
+
+# 2. Embedding Images
+You can add images using Markdown syntax or custom components.
+
+Markdown Image:
+![Alt text](https://via.placeholder.com/150)
+
+Local Image:
+import LocalImage from './example.jpg';
+
+<img src={LocalImage} alt="Example local image" width="300" />
+
+
+
+# 3. Links
+Use Markdown for links:
+
+Example:
+
+[Go to Google](https://www.google.com)
+You can also use custom Next.js <Link> components:
+
+import Link from 'next/link';
+
+<Link href="/about">Go to About Page</Link>
+
+
+
+# 5. Tables
+You can create tables directly in MDX using Markdown:
+
+| Name       | Age | Profession  |
+|------------|-----|-------------|
+| John Doe   | 28  | Developer   |
+| Jane Smith | 34  | Designer    |
+
+
+
+
