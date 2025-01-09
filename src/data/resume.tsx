@@ -80,10 +80,13 @@ export const DATA = {
       location: "Chennai, TamilNadu",
       title: "Web Development",
       logoUrl: "/weboinz.jpg",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Built responsive and dynamic web applications using React.js, Next.js, JavaScript, Tailwind CSS, and CSS. Integrated Strapi CMS for efficient content management and MongoDB for scalable data storage. Delivered high-performance, user-centric solutions with clean, reusable code and modern development practices.",
+      start: "Feb 2023",
+      end: "Present",
+      description: [
+        "1 year frontend",
+        <br />,
+        "2 years frontend"
+      ],
     },
   ],
   education: [
@@ -239,22 +242,47 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Ai",
+      title: "Product AI",
       dates: "November 23rd - 25th, 2018",
       location: "Chennai, Tamil Nadu",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Created 'Product AI,' a comprehensive website designed to help users compare a wide range of products, including mobiles, laptops, and home appliances. The platform provides detailed insights and comparisons, enabling users to make well-informed purchase decisions with ease, focusing on convenience, user experience, and reliability in product evaluation.",
       image:
         "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+          title: "NEXT JS",
+          href: "#",
+          disabled: "disabled"
+        },
+        {
+          title: "TailWind Css",
+          href: "#",
+          disabled: "disabled"
+        },
+        {
+          title: "MongoDB",
+          href: "#",
+          disabled: "disabled"
+        }, {
+          title: "Express JS",
+          href: "#",
+          disabled: "disabled"
+        },
+        {
+          title: "Node JS",
+          href: "#",
+          disabled: "disabled"
+        },
+      ],
     },
     {
       title: "Company Website ",
       dates: "September 14th - 16th, 2018",
       location: "Chennai, Tamil Nadu",
       description:
-        "Designed and developed a sleek, high-performance company website using Next.js, Tailwind CSS, Framer Motion, and Strapi CMS, incorporating Static Site Generation (SSG) to ensure fast load times and SEO optimization, with advanced animations and smooth transitions to elevate user interaction and visual appeal.",
+        "Developed a professional website for a digital marketing company, showcasing services including digital marketing, website development, mobile app development, social media management, and SEO, aimed at enhancing online visibility and client engagement",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -282,11 +310,11 @@ export const DATA = {
       ],
     },
     {
-      title: "Maxgold",
+      title: "Gold Transaction Website",
       dates: "March 23rd - 24th, 2018",
       location: "Chennai, Tamil Nadu",
       description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+        "Designed and developed a website for a gold transaction company, featuring a user-friendly form to securely collect customer details and streamline transactions, ensuring a seamless and efficient user experience.",
       icon: "public",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
@@ -302,7 +330,7 @@ export const DATA = {
           disabled: "disabled"
         },
         {
-          title: "Strapi CMS",
+          title: "Emailjs",
           href: "#",
           disabled: "disabled"
         },
@@ -314,18 +342,33 @@ export const DATA = {
       ],
     },
     {
-      title: "Svipess",
+      title: "Candit",
       dates: "February 3rd - 4th, 2018",
       location: "Chennai, Tamil Nadu",
       description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+        "Developed 'Candit,' a dynamic social media platform featuring Gen Z-friendly elements and interactive fun games, designed to enhance user engagement and provide an entertaining, community-driven experience.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
       links: [
         {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          title: "NEXT JS",
+          href: "#",
+          disabled: "disabled"
+        },
+        {
+          title: "TailWind Css",
+          href: "#",
+          disabled: "disabled"
+        },
+        {
+          title: "CSS",
+          href: "#",
+          disabled: "disabled"
+        },
+        {
+          title: "Framer Motion",
+          href: "#",
+          disabled: "disabled"
         },
       ],
     },
