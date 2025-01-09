@@ -84,7 +84,7 @@ export const DATA = {
       end: "Present",
       description: [
         "1 year frontend",
-        <br />,
+
         "2 years frontend"
       ],
     },
