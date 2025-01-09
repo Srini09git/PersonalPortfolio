@@ -83,9 +83,9 @@ export const DATA = {
       start: "Feb 2023",
       end: "Present",
       description: [
-        "1 year frontend",
-
-        "2 years frontend"
+        <p>Developed web applications.</p>,
+        <p>Collaborated with cross-functional teams.</p>,
+        <p>Led the implementation of new features.</p>,
       ],
     },
   ],
