@@ -82,11 +82,12 @@ export const DATA = {
       logoUrl: "/weboinz.jpg",
       start: "Feb 2023",
       end: "Present",
-      description: [
-        "1 year frontend",
-        <br />,
-        "2 years frontend"
-      ],
+      description: "1 year frontend",
+      description1: "1 year frontend",
+      description2: "1 year frontend",
+      description3: "1 year frontend",
+
+
     },
   ],
   education: [

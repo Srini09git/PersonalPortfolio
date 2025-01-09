@@ -17,7 +17,12 @@ interface ResumeCardProps {
   href?: string;
   badges?: readonly string[];
   period: string;
-  description?: string[];
+  description?: string;
+  description1?: string;
+  description2?: string;
+  description3?: string;
+  description4?: string;
+  description5?: string;
 }
 export const ResumeCard = ({
   logoUrl,
@@ -28,6 +33,11 @@ export const ResumeCard = ({
   badges,
   period,
   description,
+  description1,
+  description2,
+  description3,
+  description4,
+  description5,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
@@ -100,8 +110,7 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description.map((description, index) => (
-                <React.Fragment key={index}>{description}</React.Fragment>))}
+              {description} <br /> {description1} <br /> {description2}<br /> {description3}<br /> {description4}<br /> {description5}
             </motion.div>
           )}
         </div>

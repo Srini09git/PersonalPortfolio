@@ -35,6 +35,9 @@ export default function Page() {
                                 badges={work.badges}
                                 period={`${work.start} - ${work.end ?? "Present"}`}
                                 description={work.description}
+                                description1={work.description1}
+                                description2={work.description2}
+                                description3={work.description3}
                             />
                         </BlurFade>
                     ))}
