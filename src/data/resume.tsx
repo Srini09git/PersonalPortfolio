@@ -82,11 +82,14 @@ export const DATA = {
       logoUrl: "/weboinz.jpg",
       start: "Feb 2023",
       end: "Present",
-      description: "1 year frontend",
-      description1: "1 year frontend",
-      description2: "1 year frontend",
-      description3: "1 year frontend",
-
+      description: "Web Developer",
+      description1: "",
+      description2: "Developed responsive websites and dynamic user interfaces using HTML, CSS, JavaScript, React.js, Next.js, and Tailwind CSS. Focused on creating dynamic user interfaces and enhancing user experiences across web applications. Collaborated with developers and clients to create user-friendly, scalable web applications ",
+      description3: "",
+      description4: "WordPress & Shopify Developer / Web Development Intern ",
+      description5: " ",
+      description6: "Designed and customized visually appealing, responsive user interfaces for WordPress and Shopify websites, ensuring seamless user experiences across devices through theme customization, layout adjustments, and UI enhancements.",
+      description7: " "
 
     },
   ],

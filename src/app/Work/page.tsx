@@ -38,6 +38,10 @@ export default function Page() {
                                 description1={work.description1}
                                 description2={work.description2}
                                 description3={work.description3}
+                                description4={work.description4}
+                                description5={work.description5}
+                                description6={work.description6}
+                                description7={work.description7}
                             />
                         </BlurFade>
                     ))}

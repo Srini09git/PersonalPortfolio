@@ -23,6 +23,8 @@ interface ResumeCardProps {
   description3?: string;
   description4?: string;
   description5?: string;
+  description6?: string;
+  description7?: string;
 }
 export const ResumeCard = ({
   logoUrl,
@@ -38,6 +40,8 @@ export const ResumeCard = ({
   description3,
   description4,
   description5,
+  description6,
+  description7,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
@@ -111,6 +115,7 @@ export const ResumeCard = ({
               className="mt-2 text-xs sm:text-sm"
             >
               {description} <br /> {description1} <br /> {description2}<br /> {description3}<br /> {description4}<br /> {description5}
+              <br /> {description6} <br /> {description7}
             </motion.div>
           )}
         </div>
