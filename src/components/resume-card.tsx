@@ -114,7 +114,7 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description} <br /> {description1} <br /> {description2}<br /> {description3}<br /> {description4}<br /> {description5}
+              {description} <br /> {description1} <br /> {description2} <br /> {description3}<br /> {description4}<br /> {description5}
               <br /> {description6} <br /> {description7}
             </motion.div>
           )}
