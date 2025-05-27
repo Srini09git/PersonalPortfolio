@@ -247,7 +247,7 @@ export const DATA = {
   hackathons: [
     {
       title: "Product AI",
-      dates: "November 23rd - 25th, 2018",
+      dates: "2024",
       location: "Chennai, Tamil Nadu",
       description:
         "Created 'Product AI,' a comprehensive website designed to help users compare a wide range of products, including mobiles, laptops, and home appliances. The platform provides detailed insights and comparisons, enabling users to make well-informed purchase decisions with ease, focusing on convenience, user experience, and reliability in product evaluation.",
@@ -283,7 +283,7 @@ export const DATA = {
     },
     {
       title: "Company Website ",
-      dates: "September 14th - 16th, 2018",
+      dates: "2024",
       location: "Chennai, Tamil Nadu",
       description:
         "Developed a professional website for a digital marketing company, showcasing services including digital marketing, website development, mobile app development, social media management, and SEO, aimed at enhancing online visibility and client engagement",
@@ -314,8 +314,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Gold Transaction Website",
-      dates: "March 23rd - 24th, 2018",
+      title: "Gold Landing Website",
+      dates: "2024",
       location: "Chennai, Tamil Nadu",
       description:
         "Designed and developed a website for a gold transaction company, featuring a user-friendly form to securely collect customer details and streamline transactions, ensuring a seamless and efficient user experience.",
@@ -347,7 +347,7 @@ export const DATA = {
     },
     {
       title: "Candit",
-      dates: "February 3rd - 4th, 2018",
+      dates: " 2024",
       location: "Chennai, Tamil Nadu",
       description:
         "Developed 'Candit,' a dynamic social media platform featuring Gen Z-friendly elements and interactive fun games, designed to enhance user engagement and provide an entertaining, community-driven experience.",
