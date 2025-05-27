@@ -47,7 +47,7 @@ export const DATA = {
     social: {
       Instagram: {
         name: "Instagram",
-        url: "https://www.instagram.com/mrxperfect_09?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+        url: "#",
         icon: Icons.Instagram,
 
         navbar: true,
